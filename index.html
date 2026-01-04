@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamit Mondal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">Portfolio</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mode-toggle">
+                    <span class="mode-icon ☀️"></span>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-switch">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="mode-icon 🌙"></span>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="name">Shamit Mondal</span></h1>
+                <p class="hero-subtitle">Passionate Web Developer | YCSAS Intern</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a dedicated web developer currently interning at YCSAS, where I'm honing my skills in modern web technologies. Through this internship, I've gained hands-on experience with HTML, CSS, JavaScript, and React while working on real-world projects.</p>
+                        <p>My goal is to create intuitive and engaging user experiences. The YCSAS internship has been instrumental in teaching me Git workflows, responsive design, and dynamic interactivity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🐙</div>
+                        <h3>Github</h3>
+                        <p>Version control & collaboration</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🔖</div>
+                        <h3>HTML</h3>
+                        <p>Semantic markup</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Responsive styling</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>Javascript</h3>
+                        <p>Dynamic interactivity</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>React Js</h3>
+                        <p>Component-based UI</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>1. Basic Web Page</h3>
+                        <p>A simple, responsive personal website showcasing basic HTML/CSS skills.</p>
+                        <a href="https://shamitmondal.github.io/my-first-simple-website/" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>2. Registration Form</h3>
+                        <p>Interactive form with validation, demonstrating form handling and styling.</p>
+                        <a href="https://shamitmondal.github.io/registration-form/" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>3. To-Do List</h3>
+                        <p>Dynamic task manager built with JavaScript for adding, editing, and deleting tasks.</p>
+                        <a href="https://shamitmondal.github.io/to-do-list/" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-item">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/shamitmondal" target="_blank">github.com/shamitmondal</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:shamitmondal052@gmail.com">shamitmondal052@gmail.com</a>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
